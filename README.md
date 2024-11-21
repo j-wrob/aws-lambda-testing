@@ -1,2 +1,2 @@
 # aws-lambda-testing
-Learning how to run code on AWS Lambda from gh actions
+Training to run code on AWS Lambda from gh actions
