@@ -55,7 +55,7 @@ def handler(event, context):
     elif today_weather in snow_conditions:
         msg = 'Winter is coming. Get your skis!'
     else:
-        msg = 'Clear skies today! Take a sunglasses with you'
+        msg = 'Clear skies today. Take a sunglasses with you!'
 
     __send_email(msg)
 
