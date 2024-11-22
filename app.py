@@ -26,7 +26,7 @@ def __send_email(msg: str) -> None:
     # Create Email
     mail_from = gmail_user
     mail_to = gmail_user
-    mail_subject = f'Weather Today {datetime.today().strftime("%m/%d/%Y")}'
+    mail_subject = f'Weather For Today {datetime.today().strftime("%m/%d/%Y")}'
     mail_message = f'Subject: {mail_subject}\n\n{msg}'
 
     # Send Email
